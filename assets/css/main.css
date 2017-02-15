@@ -1,0 +1,90 @@
+.pcr-rpbr_box-select-role {
+	display:none;
+}
+
+.pcr-rpbr_select_role {
+	width: 100%;
+}
+
+.pcr-rpbr_redirect_url {
+	width: 100%;
+}
+
+.pcr-rpbr_error_content {
+	font-size:15px !important;
+	font-weight: bold;
+}
+
+.pcr-rpbr_403 {
+	margin: -10px 0 0 0;
+}
+
+.pcr-rpbr_403_icon {
+	text-align: center;
+	font-size: 7em;
+	display: block;
+	position: relative;
+	color: #3f7ab5;
+	margin-bottom: -10px;
+}
+
+.pcr-rpbr_403 p, .pcr-rpbr_403 div {
+	text-align: center !important;
+}
+
+.pcr-rpbr_403_heading:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    top: 55%;
+    background-color: #3f7ab5;
+}
+
+.pcr-rpbr_403_heading {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #444;
+    font-family: Lato,helvetica, arial, sans-serif;
+	font-size: 14px;
+}
+
+.pcr-rpbr_403_heading h2 {
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.pcr-rpbr_403_heading > * {
+    background: #FFF;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+    padding: 0 20px;
+}
+
+.pcr-rpbr_403_heading h2 span:before {
+    display: none !important;
+    content: "\f071";
+    font-family: FontAwesome;
+    font-weight: bold;
+    margin-right: 12px;
+    color: red;
+    text-transform: uppercase;
+
+}
+
+.pcr-rpbr_403 .btn.btn-default {
+	text-transform: uppercase;
+	border-radius: 2px;
+	color: #FFF !important;
+	float: none;
+	font-weight: bold;
+	padding: 10px 18px;
+	margin: 15px 0;
+	border: 0;
+	white-space: normal;
+}
